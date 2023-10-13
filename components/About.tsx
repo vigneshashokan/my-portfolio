@@ -1,5 +1,6 @@
-import { motion } from "framer-motion";
 import React from "react";
+import { motion } from "framer-motion";
+import { about } from "@/data/resumeData";
 
 type Props = {};
 
@@ -24,19 +25,7 @@ export default function About({}: Props) {
         className="space-y-10 px-0 md:px-10"
       >
         <h4 className="text-4xl font-semibold">Here's a little background</h4>
-        <p className="text-sm">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          non pharetra dolor, nec vehicula lacus. Cras orci risus, faucibus quis
-          metus malesuada, dignissim euismod risus. Proin quis ligula tellus.
-          Proin vel pulvinar ante. Fusce a purus mattis, semper lacus nec,
-          tristique massa. Fusce fermentum semper purus, mattis ornare lorem.
-          Pellentesque sed quam sagittis, commodo orci quis, malesuada risus.
-          Morbi vitae augue sodales, ornare eros quis, mollis lacus. Quisque non
-          ex vel est blandit malesuada. Ut nisl nunc, volutpat eget nisl sed,
-          vulputate varius sapien. Aenean interdum mauris at lorem lacinia
-          tincidunt. Quisque at aliquam lectus. Aliquam erat volutpat. In
-          consequat.
-        </p>
+        <p className="text-sm text-justify">{about}</p>
       </motion.div>
     </div>
   );
