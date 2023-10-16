@@ -59,6 +59,7 @@ export const experiences = [
     period: "April 2022 - June 2022",
     jobDuties: [
       "Designed and implemented the migration of V1 segment data to the newer V2 segment format, resulting in the reduction of snowflake costs by 30% and improving the segmentation pipeline runtime by 10 folds",
+      "Bar raiser and technical interviewer for Twilio’s hiring committees for levels L3 and lower",
     ],
   },
   {
@@ -78,7 +79,6 @@ export const experiences = [
       "Implemented a YACC parser to parse SQL as ASTs & validate for supported syntax, transform to valid snowflake SQLs and convert the SQLs to UI expressions to achieve segmentation of contacts; this includes the reverse translation of expressions from the UI to user readable SQL to return as API response",
       "Architected and implemented sample contacts generation pipeline as part of the contact segmentation service",
       "Developed APIs to manage email templates, campaigns, resource clean-up services for SOC/GDPR compliance as part of SendGrid’s Marketing Campaigns platform; this included design discussions with the product managers, design & implementation, testing and releasing the APIs with documentation to the end users",
-      "Bar raiser and technical interviewer for Twilio’s hiring committees for levels L3 and lower",
     ],
   },
   {

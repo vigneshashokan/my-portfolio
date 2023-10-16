@@ -5,6 +5,7 @@ import WorkExperience from "@/components/WorkExperience";
 import Head from "next/head";
 import { Experience } from "@/typings";
 import { experiences } from "@/data/resumeData";
+import Skills from "@/components/Skills";
 
 type Props = {
   experiences: [Experience];
@@ -27,6 +28,9 @@ export default function Home({ experiences }: Props) {
         <WorkExperience experiences={experiences} />
       </section>
       {/* Skills */}
+      <section id="skills" className="snap-start">
+        <Skills />
+      </section>
       {/* Projects */}
       {/* Contact Me */}
     </div>
