@@ -120,3 +120,27 @@ export const experiences = [
     ],
   },
 ];
+
+export const projects = [
+  {
+    title: "This Website",
+    imgSrc:
+      "https://lh3.googleusercontent.com/pw/ADCreHd4WdixWZIdgkKdOOr7V3oPpZD9R7nsg4lPcZe0a96J5ayScmI5zcekpCwuGyb1p1KpQODjkEa7xLMJFEKM-AZImxtXe3rXAY5_j-3LaR-urrVc2fEv=w2400",
+    description:
+      "This website is a Next.js project was created with React, tailwindcss and Framer Motion",
+  },
+  {
+    title: "This Website",
+    imgSrc:
+      "https://lh3.googleusercontent.com/pw/ADCreHd4WdixWZIdgkKdOOr7V3oPpZD9R7nsg4lPcZe0a96J5ayScmI5zcekpCwuGyb1p1KpQODjkEa7xLMJFEKM-AZImxtXe3rXAY5_j-3LaR-urrVc2fEv=w2400",
+    description:
+      "This website is a Next.js project was created with React, tailwindcss and Framer Motion",
+  },
+  {
+    title: "This Website",
+    imgSrc:
+      "https://lh3.googleusercontent.com/pw/ADCreHd4WdixWZIdgkKdOOr7V3oPpZD9R7nsg4lPcZe0a96J5ayScmI5zcekpCwuGyb1p1KpQODjkEa7xLMJFEKM-AZImxtXe3rXAY5_j-3LaR-urrVc2fEv=w2400",
+    description:
+      "This website is a Next.js project was created with React, tailwindcss and Framer Motion",
+  },
+];

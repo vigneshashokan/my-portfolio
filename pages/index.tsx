@@ -6,6 +6,7 @@ import Head from "next/head";
 import { Experience } from "@/typings";
 import { experiences } from "@/data/resumeData";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
 
 type Props = {
   experiences: [Experience];
@@ -27,11 +28,12 @@ export default function Home({ experiences }: Props) {
       <section id="experience" className="snap-center">
         <WorkExperience experiences={experiences} />
       </section>
-      {/* Skills */}
       <section id="skills" className="snap-start">
         <Skills />
       </section>
-      {/* Projects */}
+      <section id="projects" className="snap-start">
+        <Projects />
+      </section>
       {/* Contact Me */}
     </div>
   );
