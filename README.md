@@ -8,3 +8,11 @@ The project will be updated as and when there is a change that needs to be refle
 1. Open LinkedIn and Github links in a new tab
 2. Replace `<img>` with `<Image>`
 3. Add a `download resume as .pdf` button/funtionality
+4. Comment `Projects` section
+5. Fix Icons in (use only one pkg - package.json has `react-icons`, `react-social-icons` & `heroicons`),
+   1. `Header.tsx`
+   2. `ContactMe.tsx`
+6. In `ContactMe.tsx`,
+   1. Remove phone number from contact me
+   2. `formState` in form
+   3. Implement email client on `Submit`
