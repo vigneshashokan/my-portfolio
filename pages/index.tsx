@@ -9,6 +9,7 @@ import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
+import { GetStaticProps } from "next";
 
 type Props = {
   experiences: [Experience];
@@ -36,7 +37,6 @@ export default function Home({ experiences }: Props) {
       <section id="projects" className="snap-start">
         <Projects />
       </section>
-      {/* Contact Me */}
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
@@ -55,10 +55,10 @@ export default function Home({ experiences }: Props) {
   );
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps = () => {
   return {
     props: {
       experiences: experiences,
     },
   };
-}
+};

@@ -24,7 +24,9 @@ export default function About({}: Props) {
         transition={{ duration: 1.5 }}
         className="space-y-10 px-0 md:px-10"
       >
-        <h4 className="text-4xl font-semibold">Here's a little background</h4>
+        <h4 className="text-4xl font-semibold">
+          Here&apos;s a little background
+        </h4>
         <p className="text-sm text-justify">{about}</p>
       </motion.div>
     </div>
