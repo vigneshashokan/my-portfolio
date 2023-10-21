@@ -7,7 +7,7 @@ This project is deployed in vercel and can be accessed from [here](https://my-po
 # To Dos
 
 1. ~~Open LinkedIn and Github links in a new tab~~
-2. Replace go to top section
+2. ~~Replace go to top section~~
 3. Replace `<img>` with `<Image>`
 4. Add a `download resume as .pdf` button/funtionality
 5. Hide `Projects` section
