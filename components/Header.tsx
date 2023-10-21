@@ -29,11 +29,15 @@ export default function Header({}: Props) {
         {/* Social Icons */}
         <SocialIcon
           url="https://www.linkedin.com/in/vigneshashokan/"
+          target="_blank"
+          rel="noopener noreferrer"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://github.com/vigneshashokan"
+          target="_blank"
+          rel="noopener noreferrer"
           fgColor="gray"
           bgColor="transparent"
         />
