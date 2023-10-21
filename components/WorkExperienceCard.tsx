@@ -1,19 +1,11 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { Experience } from "@/typings";
 
 type Props = { experience: Experience };
 
 export default function WorkExperienceCard({ experience }: Props) {
-  const {
-    id,
-    companyName,
-    companyLogo,
-    period,
-    position,
-    techLogos,
-    jobDuties,
-  } = experience;
+  const { companyName, companyLogo, period, position, techLogos, jobDuties } =
+    experience;
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
       <motion.img

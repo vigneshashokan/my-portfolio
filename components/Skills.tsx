@@ -1,6 +1,6 @@
-import { motion } from "framer-motion";
-import React from "react";
 import Skill from "./Skill";
+import { skills } from "@/data/resumeData";
+import { motion } from "framer-motion";
 
 type Props = {};
 
@@ -19,15 +19,10 @@ export default function Skills({}: Props) {
         Hover over a technology to see whether it was gained from my past work
         experience or from personal interest
       </h3>
-      <div className="grid grid-cols-4 gap-5">
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
-        <Skill />
+      <div className="grid grid-cols-5 gap-5">
+        {skills.map((skill, i) => (
+          <Skill key={i} skill={skill} />
+        ))}
       </div>
     </motion.div>
   );
