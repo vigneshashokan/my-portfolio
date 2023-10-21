@@ -26,7 +26,6 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center"
       >
-        {/* Social Icons */}
         <SocialIcon
           url="https://www.linkedin.com/in/vigneshashokan/"
           target="_blank"

@@ -1,18 +1,14 @@
-export const about = `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-non pharetra dolor, nec vehicula lacus. Cras orci risus, faucibus quis
-metus malesuada, dignissim euismod risus. Proin quis ligula tellus.
-Proin vel pulvinar ante. Fusce a purus mattis, semper lacus nec,
-tristique massa. Fusce fermentum semper purus, mattis ornare lorem.
-Pellentesque sed quam sagittis, commodo orci quis, malesuada risus.
-Morbi vitae augue sodales, ornare eros quis, mollis lacus. Quisque non
-ex vel est blandit malesuada. Ut nisl nunc, volutpat eget nisl sed,
-vulputate varius sapien. Aenean interdum mauris at lorem lacinia
-tincidunt. Quisque at aliquam lectus. Aliquam erat volutpat. In
-consequat.`;
+export const about = `I am a software engineer with over 8 years of experience building complex backend systems, APIs, user interfaces in a myriad set of tech stacks.
+I am currently working as a Senior Software Engineer at Splunk, based of Vancouver, BC, Canada.
+I'm a team player, adaptable, proactive and thrive on agile work environment. I have always been a backend heavy full-stack engineer, and am looking to diversify and strengthen my skills on frontend side of things as well.
+Over the course of my career so far, I have been fortunate enough to work at great companies with great cultures which have helped to me to grow as an engineer and I have been lucky to work on diverse & interesting set of problem statements across the security, communication and incident management spaces.
+On my spare time, I try update my knowledge in the ever evolving space of computer scienece.
+Non-tech wise, I like to hike, ski & travel.
+I have been to 12 countries so far.
+Although not a boast-worthy number, I hope that it incerases with every passing year.`;
 
 export const experiences = [
   {
-    id: "c4",
     companyName: "Splunk",
     companyLogo: {
       src: "https://www.splunk.com/content/dam/splunk2/images/2020-splunk-planet.svg",
@@ -48,7 +44,6 @@ export const experiences = [
     jobDuties: ["N/A"],
   },
   {
-    id: "c3",
     companyName: "PagerDuty",
     companyLogo: {
       src: "https://www.pagerduty.com/wp-content/uploads/2022/03/Generic-PagerDuty-blog.png",
@@ -84,7 +79,6 @@ export const experiences = [
     ],
   },
   {
-    id: "c2b",
     companyName: "Twilio",
     companyLogo: {
       src: "https://www.svgrepo.com/show/331615/twilio.svg",
@@ -120,7 +114,6 @@ export const experiences = [
     ],
   },
   {
-    id: "c2a",
     companyName: "Twilio",
     companyLogo: {
       src: "https://www.svgrepo.com/show/331615/twilio.svg",
@@ -157,7 +150,6 @@ export const experiences = [
     ],
   },
   {
-    id: "c1b",
     companyName: "Securonix",
     companyLogo: {
       src: "https://media.licdn.com/dms/image/D560BAQHOWaQd-NlCJQ/company-logo_200_200/0/1688373542815/securonix_logo?e=2147483647&v=beta&t=9YPE1-Su9RmJHzh4EFqwqwTUyS1mMYP9TZ0JSceeRGM",
@@ -201,7 +193,6 @@ export const experiences = [
     ],
   },
   {
-    id: "c1a",
     companyName: "Securonix",
     companyLogo: {
       src: "https://media.licdn.com/dms/image/D560BAQHOWaQd-NlCJQ/company-logo_200_200/0/1688373542815/securonix_logo?e=2147483647&v=beta&t=9YPE1-Su9RmJHzh4EFqwqwTUyS1mMYP9TZ0JSceeRGM",
@@ -244,26 +235,89 @@ export const experiences = [
   },
 ];
 
+export const skills = [
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Go_Logo_Blue.svg/2560px-Go_Logo_Blue.svg.png",
+  },
+  {
+    src: "https://logolook.net/wp-content/uploads/2022/11/Java-Logo.png",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/701px-Python-logo-notext.svg.png",
+  },
+  {
+    src: "https://cdn.icon-icons.com/icons2/2699/PNG/512/elixir_lang_logo_icon_169207.png",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
+  },
+  {
+    src: "https://cdn.worldvectorlogo.com/logos/redux.svg",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/CSS3_logo.svg/800px-CSS3_logo.svg.png",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Groovy-logo.svg/1024px-Groovy-logo.svg.png",
+  },
+  {
+    src: "https://grails.org/images/grails.png",
+  },
+  {
+    src: "https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png",
+  },
+  {
+    src: "https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png",
+  },
+  {
+    src: "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png",
+  },
+  {
+    src: "https://i0.wp.com/restapp.io/wp-content/uploads/2022/11/Snowflake-Logo.png?fit=1565%2C1559&ssl=1",
+  },
+  {
+    src: "https://static-00.iconduck.com/assets.00/terraform-icon-1803x2048-hodrzd3t.png",
+  },
+  {
+    src: "https://w7.pngwing.com/pngs/610/693/png-transparent-amazon-aws-logo.png",
+  },
+  {
+    src: "https://buildkite.com/_next/static/assets/assets/images/brand-assets/buildkite-mark-6c75be6b.png",
+  },
+  {
+    src: "https://assets.stickpng.com/images/629b450a95f79dc9fa7256f1.png",
+  },
+  {
+    src: "https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Datadog_logo.svg/1200px-Datadog_logo.svg.png",
+  },
+];
+
 export const projects = [
   {
     title: "This Website",
     imgSrc:
       "https://lh3.googleusercontent.com/pw/ADCreHd4WdixWZIdgkKdOOr7V3oPpZD9R7nsg4lPcZe0a96J5ayScmI5zcekpCwuGyb1p1KpQODjkEa7xLMJFEKM-AZImxtXe3rXAY5_j-3LaR-urrVc2fEv=w2400",
     description:
-      "This website is a Next.js project was created with React, tailwindcss and Framer Motion",
+      "This website is a Next.js project created using React, tailwindcss and Framer Motion",
   },
   {
     title: "This Website",
     imgSrc:
       "https://lh3.googleusercontent.com/pw/ADCreHd4WdixWZIdgkKdOOr7V3oPpZD9R7nsg4lPcZe0a96J5ayScmI5zcekpCwuGyb1p1KpQODjkEa7xLMJFEKM-AZImxtXe3rXAY5_j-3LaR-urrVc2fEv=w2400",
     description:
-      "This website is a Next.js project was created with React, tailwindcss and Framer Motion",
+      "This website is a Next.js project created using React, tailwindcss and Framer Motion",
   },
   {
     title: "This Website",
     imgSrc:
       "https://lh3.googleusercontent.com/pw/ADCreHd4WdixWZIdgkKdOOr7V3oPpZD9R7nsg4lPcZe0a96J5ayScmI5zcekpCwuGyb1p1KpQODjkEa7xLMJFEKM-AZImxtXe3rXAY5_j-3LaR-urrVc2fEv=w2400",
     description:
-      "This website is a Next.js project was created with React, tailwindcss and Framer Motion",
+      "This website is a Next.js project created using React, tailwindcss and Framer Motion",
   },
 ];

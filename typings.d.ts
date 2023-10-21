@@ -1,14 +1,13 @@
-export interface Logo {
+export type Logo = {
   src: string;
-  alt: string;
-}
+  alt?: string;
+};
 
-export interface Experience {
-  id: string;
+export type Experience = {
   companyName: string;
   companyLogo: Logo;
   position: string;
   techLogos: [Logo];
   period: string;
   jobDuties: [string];
-}
+};

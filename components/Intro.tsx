@@ -2,16 +2,13 @@ import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
+import { MapPinIcon } from "@heroicons/react/24/solid";
 
 type Props = {};
 
 export default function Intro({}: Props) {
-  const [text, count] = useTypewriter({
-    words: [
-      "Hello World! I'm Vignesh Ashokan",
-      "Fullstack Developer",
-      // "with crippling caffeine addiction",
-    ],
+  const [text] = useTypewriter({
+    words: ["Hello World!", "I'm Vignesh Ashokan.", "<Fullstack Developer/>"],
     loop: true,
     delaySpeed: 2000,
   });
@@ -32,6 +29,12 @@ export default function Intro({}: Props) {
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
+        <div className="pt-5">
+          <div className="flex items-center space-x-5 justify-center">
+            <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
+            <p className="text-2xl">Vancouver, BC, Canada</p>
+          </div>
+        </div>
         <div className="pt-5">
           <Link href="#about">
             <button className="introButton">About</button>

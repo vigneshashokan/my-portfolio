@@ -6,10 +6,11 @@ import Head from "next/head";
 import { Experience } from "@/typings";
 import { experiences } from "@/data/resumeData";
 import Skills from "@/components/Skills";
-import Projects from "@/components/Projects";
+// import Projects from "@/components/Projects";
 import ContactMe from "@/components/ContactMe";
 import Link from "next/link";
 import { GetStaticProps } from "next";
+import { RxPinTop } from "react-icons/rx";
 
 type Props = {
   experiences: [Experience];
@@ -34,20 +35,21 @@ export default function Home({ experiences }: Props) {
       <section id="skills" className="snap-start">
         <Skills />
       </section>
-      <section id="projects" className="snap-start">
+      {/* <section id="projects" className="snap-start">
         <Projects />
-      </section>
+      </section> */}
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
       <Link href="#intro">
         <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-center">
-            <img
-              className="h-10 w-10 rounded-full filter grascale hover:grayscale-0 cursor-pointer"
-              src="https://i.imgur.com/e2yvD6A.png"
-              alt=""
-            />
+          <div className="flex items-center justify-end pr-20 pb-5">
+            <div
+              title="Go to the top"
+              className="border border-white p-1 rounded-md"
+            >
+              <RxPinTop size={40} />
+            </div>
           </div>
         </footer>
       </Link>
