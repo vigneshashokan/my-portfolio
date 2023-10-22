@@ -15,18 +15,28 @@ type Inputs = {
 
 export default function ContactMe({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
+  const serviceId: string = process.env.EMAILJS_SERVICE_ID!;
+  const templateId: string = process.env.EMAILJS_TEMPLATE_ID!;
+  const publicKey: string = process.env.EMAILJS_PUBLIC_KEY!;
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
-    emailjs
-      .send(
-        "service_yz6vstb",
-        "template_al4fd0m",
-        formData,
-        "EFgUwyQnlyjpj43iX"
-      )
-      .then(
-        () => {
-          toast.success("Message sent to Vignesh!", {
+    emailjs.send(serviceId, templateId, formData, publicKey).then(
+      () => {
+        toast.success("Message sent to Vignesh!", {
+          position: "top-center",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "dark",
+        });
+      },
+      (error) => {
+        toast.error(
+          `Sorry! Something went wrong sending the message. ${error}`,
+          {
             position: "top-center",
             autoClose: 5000,
             hideProgressBar: false,
@@ -34,25 +44,11 @@ export default function ContactMe({}: Props) {
             pauseOnHover: true,
             draggable: true,
             progress: undefined,
-            theme: "dark",
-          });
-        },
-        (error) => {
-          toast.error(
-            `Sorry! Something went wrong sending the message. ${error}`,
-            {
-              position: "top-center",
-              autoClose: 5000,
-              hideProgressBar: false,
-              closeOnClick: true,
-              pauseOnHover: true,
-              draggable: true,
-              progress: undefined,
-              theme: "light",
-            }
-          );
-        }
-      );
+            theme: "light",
+          }
+        );
+      }
+    );
   };
 
   return (
