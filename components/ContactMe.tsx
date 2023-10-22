@@ -27,7 +27,7 @@ export default function ContactMe({}: Props) {
       </h3>
       <div className="flex flex-col space-y-10">
         <h4 className="text-4xl font-semibold text-center">
-          Feel free to shoot me an email, I&aposll get back to you!
+          Feel free to shoot me an email, I&apos;ll get back to you!
         </h4>
 
         <form
