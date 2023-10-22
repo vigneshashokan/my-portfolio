@@ -1,5 +1,6 @@
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import { GrSend } from "react-icons/gr";
 
 type Props = {};
 
@@ -55,15 +56,20 @@ export default function ContactMe({}: Props) {
             {...register("email", { required: true })}
           />
           <textarea
+            rows={5}
             className="contactInput"
             placeholder="Your Message..."
             {...register("message", { required: true })}
           />
-          <input
+          {/* <div className="flex w-fit mx-auto"> */}
+          <button
             type="submit"
-            value="Submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-white font-bold text-2xl"
-          />
+            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-2xl flex mx-auto"
+          >
+            <GrSend size={35} />
+            <span className="text-center pl-5">Send Message</span>
+          </button>
+          {/* </div> */}
         </form>
       </div>
     </div>
