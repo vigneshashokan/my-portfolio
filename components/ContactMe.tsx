@@ -94,7 +94,7 @@ export default function ContactMe({}: Props) {
           <input
             type="submit"
             value="Send"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-2xl cursor-pointer"
+            className="bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 py-5 px-10 rounded-md text-black font-bold text-2xl cursor-pointer"
           />
         </form>
       </div>

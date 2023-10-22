@@ -1,8 +1,8 @@
 import React from "react";
-import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { LuMail } from "react-icons/lu";
+import { SiLinkedin, SiGithub } from "react-icons/si";
 // import { Link } from "react-scroll";
 
 type Props = {};
@@ -26,26 +26,28 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center"
       >
-        <SocialIcon
-          url="https://www.linkedin.com/in/vigneshashokan/"
+        <a
+          href="https://www.linkedin.com/in/vigneshashokan"
           target="_blank"
           rel="noopener noreferrer"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <SocialIcon
-          url="https://github.com/vigneshashokan"
+          className="px-3 text-[#808080] hover:text-white"
+        >
+          <SiLinkedin size={30} />
+        </a>
+        <a
+          href="https://github.com/vigneshashokan"
           target="_blank"
           rel="noopener noreferrer"
-          fgColor="gray"
-          bgColor="transparent"
-        />
+          className="px-3 text-[#808080] hover:text-white"
+        >
+          <SiGithub size={30} />
+        </a>
         <Link href="#contact">
-          <div className="flex flex-row items-center text-[#808080] cursor-pointer pl-5 text-md">
-            <div className="cursor-pointer pr-2">
-              <LuMail size={25} />
+          <div className="flex flex-row items-center text-[#808080] hover:text-white cursor-pointer px-3 text-md">
+            <div className="cursor-pointer">
+              <LuMail size={35} />
             </div>
-            <p className="uppercase hidden md:inline-flex">Get In Touch</p>
+            <p className="uppercase hidden md:inline-flex px-3">Get In Touch</p>
           </div>
         </Link>
       </motion.div>
@@ -65,7 +67,7 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        <div className="cursor-pointer py-2 px-3 border-2 border-[#808080] text-black font-bold bg-[#F7AB0A] rounded-md">
+        <div className="cursor-pointer py-2 px-3 text-black font-bold bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 rounded-full">
           <a
             href="/Vignesh_Ashokan_Resume_2022.pdf"
             download="Vignesh_Ashokan_Resume.pdf"

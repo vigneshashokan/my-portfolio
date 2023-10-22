@@ -6,8 +6,5 @@ This project is deployed in vercel and can be accessed from [here](https://my-po
 
 # To Dos
 
-1. Fix Icons in (use only one pkg - package.json has `react-icons`, `react-social-icons` & `heroicons`),
-   1. `Header.tsx`
-   2. `ContactMe.tsx`
-2. Fix Skills section - remove % and add professional/personal
-3. Fix mobile view
+1. Fix Skills section - remove % and add professional/personal
+2. Fix mobile view

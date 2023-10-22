@@ -1,8 +1,8 @@
 export const about = `I am a software engineer based of Vancouver, Canada, with over 8 years of experience building complex backend systems, APIs, user interfaces across the security, communication and incident management spaces.
 I have always been a backend heavy full-stack engineer, and am looking to diversify and strengthen my skills on frontend side of things as well.
 I'm a team player, adaptable, proactive and thrive on agile work environment.
-On my spare time, I try update my knowledge in the ever evolving space of computer scienece.
-Non-tech wise, I like to hike, ski & travel.`;
+On my spare time, I try update my knowledge in the ever evolving space of computer science.
+Outside of work, I like to hike, ski & travel.`;
 
 export const experiences = [
   {
