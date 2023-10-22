@@ -15,9 +15,9 @@ type Inputs = {
 
 export default function ContactMe({}: Props) {
   const { register, handleSubmit } = useForm<Inputs>();
-  const serviceId: string = process.env.EMAILJS_SERVICE_ID!;
-  const templateId: string = process.env.EMAILJS_TEMPLATE_ID!;
-  const publicKey: string = process.env.EMAILJS_PUBLIC_KEY!;
+  const serviceId: string = process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID!;
+  const templateId: string = process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID!;
+  const publicKey: string = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY!;
 
   const onSubmit: SubmitHandler<Inputs> = (formData) => {
     emailjs.send(serviceId, templateId, formData, publicKey).then(
