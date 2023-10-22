@@ -40,32 +40,42 @@ export default function Header({}: Props) {
           fgColor="gray"
           bgColor="transparent"
         />
-      </motion.div>
-      <Link href="#contact">
-        <motion.div
-          initial={{
-            x: 500,
-            opacity: 0,
-            scale: 0.5,
-          }}
-          animate={{
-            x: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{
-            duration: 1,
-          }}
-          className="flex flex-row items-center text-gray-300 cursor-pointer"
-        >
-          <div className="cursor-pointer pr-2">
-            <LuMail />
+        <Link href="#contact">
+          <div className="flex flex-row items-center text-[#808080] cursor-pointer pl-5 text-md">
+            <div className="cursor-pointer pr-2">
+              <LuMail size={25} />
+            </div>
+            <p className="uppercase hidden md:inline-flex">Get In Touch</p>
           </div>
-          <p className="uppercase hidden md:inline-flex text-sm text-gray-400">
-            Get In Touch
-          </p>
-        </motion.div>
-      </Link>
+        </Link>
+      </motion.div>
+      <motion.div
+        initial={{
+          x: 500,
+          opacity: 0,
+          scale: 0.5,
+        }}
+        animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1,
+        }}
+        transition={{
+          duration: 1,
+        }}
+        className="flex flex-row items-center text-gray-300 cursor-pointer"
+      >
+        <div className="cursor-pointer pt-1 pb-1 pl-2 pr-2 border-2 border-[#808080] text-[#808080] rounded-md">
+          <a
+            href="/Vignesh_Ashokan_Resume_2022.pdf"
+            download="Vignesh_Ashokan_Resume.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>Download resume as .pdf</button>
+          </a>
+        </div>
+      </motion.div>
     </header>
   );
 }

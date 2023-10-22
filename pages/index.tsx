@@ -46,7 +46,7 @@ export default function Home({ experiences }: Props) {
           <div className="flex items-center justify-end pr-20 pb-5">
             <div
               title="Go to the top"
-              className="border border-white p-1 rounded-md"
+              className="border-2 border-[#808080] text-[#808080] p-1 rounded-md"
             >
               <RxPinTop size={40} />
             </div>
