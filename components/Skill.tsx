@@ -13,7 +13,7 @@ export default function Skill({ directionLeft, skill }: Props) {
       <motion.img
         initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
-        transition={{ uration: 1 }}
+        transition={{ duration: 1 }}
         src={skill.src}
         className="object-cover h-24 w-24 md:h-28 md:w-28 filter group-hover:grayscale transition duration-300 ease-in-out"
       />
