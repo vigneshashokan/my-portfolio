@@ -95,21 +95,11 @@ export default function ContactMe({}: Props) {
             placeholder="Your Message..."
             {...register("message", { required: true })}
           />
-          {/* <div className="flex w-fit mx-auto"> */}
-          <button
+          <input
             type="submit"
-<<<<<<< HEAD
             value="Send"
             className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-2xl cursor-pointer"
           />
-=======
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-2xl flex mx-auto"
-          >
-            <GrSend size={35} />
-            <span className="text-center pl-5">Send Message</span>
-          </button>
-          {/* </div> */}
->>>>>>> 6b06f0e (def ta rows)
         </form>
       </div>
     </div>
