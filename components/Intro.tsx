@@ -9,7 +9,7 @@ type Props = {};
 
 export default function Intro({}: Props) {
   const [text] = useTypewriter({
-    words: ["Hello World!", "I'm Vignesh Ashokan.", "<Fullstack Developer/>"],
+    words: ["Hello World!", "I'm Vignesh Ashokan.", "<Fullstack Developer />"],
     loop: true,
     delaySpeed: 2000,
   });

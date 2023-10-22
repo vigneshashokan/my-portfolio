@@ -65,7 +65,7 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        <div className="cursor-pointer py-1 px-2 border-2 border-[#808080] text-black font-bold bg-[#F7AB0A] rounded-md">
+        <div className="cursor-pointer py-2 px-3 border-2 border-[#808080] text-black font-bold bg-[#F7AB0A] rounded-md">
           <a
             href="/Vignesh_Ashokan_Resume_2022.pdf"
             download="Vignesh_Ashokan_Resume.pdf"
