@@ -3,6 +3,7 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 import { MapPinIcon } from "@heroicons/react/24/solid";
+import Image from "next/image";
 
 type Props = {};
 
@@ -16,10 +17,12 @@ export default function Intro({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 item-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      <img
+      <Image
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
         src="https://lh3.googleusercontent.com/pw/ADCreHfBHs5V-CuAuTj1yBjihS0mnCWwkQDh3chM56phKWtzJOMg2cFS2N3f1aRpeLbdu7OVOsGEdn7vJoXFe1swxQT4Bm7c113OldKzYA_NeTVkcLARlrz9=w2400"
         alt=""
+        height={1080}
+        width={1920}
       />
       <div className="z-20">
         <h2 className="text-lg uppercase text-gray-500 pb-2 tracking-[10px]">

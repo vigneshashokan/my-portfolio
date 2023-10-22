@@ -1,11 +1,8 @@
-export const about = `I am a software engineer with over 8 years of experience building complex backend systems, APIs, user interfaces in a myriad set of tech stacks.
-I am currently working as a Senior Software Engineer at Splunk, based of Vancouver, BC, Canada.
-I'm a team player, adaptable, proactive and thrive on agile work environment. I have always been a backend heavy full-stack engineer, and am looking to diversify and strengthen my skills on frontend side of things as well.
-Over the course of my career so far, I have been fortunate enough to work at great companies with great cultures which have helped to me to grow as an engineer and I have been lucky to work on diverse & interesting set of problem statements across the security, communication and incident management spaces.
+export const about = `I am a software engineer based of Vancouver, Canada, with over 8 years of experience building complex backend systems, APIs, user interfaces across the security, communication and incident management spaces.
+I have always been a backend heavy full-stack engineer, and am looking to diversify and strengthen my skills on frontend side of things as well.
+I'm a team player, adaptable, proactive and thrive on agile work environment.
 On my spare time, I try update my knowledge in the ever evolving space of computer scienece.
-Non-tech wise, I like to hike, ski & travel.
-I have been to 12 countries so far.
-Although not a boast-worthy number, I hope that it incerases with every passing year.`;
+Non-tech wise, I like to hike, ski & travel.`;
 
 export const experiences = [
   {

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { Experience } from "@/typings";
+import Image from "next/image";
 
 type Props = { experience: Experience };
 
@@ -23,11 +24,13 @@ export default function WorkExperienceCard({ experience }: Props) {
         <p className="uppercase text-gray-300">{period}</p>
         <div className="flex space-x-2 my-2">
           {techLogos.map((logo, i) => (
-            <img
+            <Image
               key={i + 1}
               className="h-10 w-10 rounded-full"
               src={logo.src}
               alt=""
+              height={1080}
+              width={1920}
             />
           ))}
         </div>
