@@ -1,5 +1,8 @@
 import React from "react";
 import { useForm, SubmitHandler } from "react-hook-form";
+import emailjs from "@emailjs/browser";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 type Props = {};
 
@@ -11,14 +14,46 @@ type Inputs = {
 };
 
 export default function ContactMe({}: Props) {
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<Inputs>();
+  const { register, handleSubmit } = useForm<Inputs>();
 
-  const onSubmit: SubmitHandler<Inputs> = (formData) =>
-    (window.location.href = `mailto:vigneshgashokan@gmail?subject=hello&body=${formData.message}`);
+  const onSubmit: SubmitHandler<Inputs> = (formData) => {
+    emailjs
+      .send(
+        "service_yz6vstb",
+        "template_al4fd0m",
+        formData,
+        "EFgUwyQnlyjpj43iX"
+      )
+      .then(
+        () => {
+          toast.success("Message sent to Vignesh!", {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "dark",
+          });
+        },
+        (error) => {
+          toast.error(
+            `Sorry! Something went wrong sending the message. ${error}`,
+            {
+              position: "top-center",
+              autoClose: 5000,
+              hideProgressBar: false,
+              closeOnClick: true,
+              pauseOnHover: true,
+              draggable: true,
+              progress: undefined,
+              theme: "light",
+            }
+          );
+        }
+      );
+  };
 
   return (
     <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
@@ -29,7 +64,7 @@ export default function ContactMe({}: Props) {
         <h4 className="text-4xl font-semibold text-center">
           Feel free to shoot me an email, I&apos;ll get back to you!
         </h4>
-
+        <ToastContainer />
         <form
           className="flex flex-col space-y-2 w-fit mx-auto"
           onSubmit={handleSubmit(onSubmit)}
@@ -55,14 +90,15 @@ export default function ContactMe({}: Props) {
             {...register("email", { required: true })}
           />
           <textarea
+            rows={5}
             className="contactInput"
             placeholder="Your Message..."
             {...register("message", { required: true })}
           />
           <input
             type="submit"
-            value="Submit"
-            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-white font-bold text-2xl"
+            value="Send"
+            className="bg-[#F7AB0A] py-5 px-10 rounded-md text-black font-bold text-2xl cursor-pointer"
           />
         </form>
       </div>
