@@ -1,11 +1,11 @@
 import { motion } from "framer-motion";
 import { Experience } from "@/typings";
-import Image from "next/image";
+import { iconsMap } from "@/data/iconData";
 
 type Props = { experience: Experience };
 
 export default function WorkExperienceCard({ experience }: Props) {
-  const { companyName, companyLogo, period, position, techLogos, jobDuties } =
+  const { companyName, companyLogo, period, position, techStack, jobDuties } =
     experience;
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden">
@@ -23,16 +23,17 @@ export default function WorkExperienceCard({ experience }: Props) {
         <p className="text-2xl font-bold mt-1">{position}</p>
         <p className="uppercase text-gray-300">{period}</p>
         <div className="flex space-x-2 my-2">
-          {techLogos.map((logo, i) => (
-            <Image
-              key={i + 1}
-              className="h-10 w-10 rounded-full"
-              src={logo.src}
-              alt=""
-              height={1080}
-              width={1920}
-            />
-          ))}
+          {techStack.map((logo, i) => {
+            return (
+              <div key={i} className="text-3xl">
+                {
+                  Object.entries(iconsMap).filter(
+                    (icon) => icon[0] == logo
+                  )[0][1]
+                }
+              </div>
+            );
+          })}
         </div>
         <ul className="list-disc space-y-4 ml-5 text-sm">
           {jobDuties.map((jd, i) => (

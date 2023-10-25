@@ -41,18 +41,18 @@ export default function Home({ experiences }: Props) {
       <section id="contact" className="snap-start">
         <ContactMe />
       </section>
-      <Link href="#intro">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
-          <div className="flex items-center justify-end pr-20 pb-5">
+      <footer className="sticky bottom-5 w-full">
+        <div className="flex items-center justify-end pr-20 pb-5">
+          <Link href="#intro" className="cursor-pointer">
             <div
               title="Go to the top"
               className="border-2 border-[#808080] text-[#808080] p-1 rounded-md"
             >
               <RxPinTop size={40} />
             </div>
-          </div>
-        </footer>
-      </Link>
+          </Link>
+        </div>
+      </footer>
     </div>
   );
 }

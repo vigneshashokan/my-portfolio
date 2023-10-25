@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { LuMail } from "react-icons/lu";
+import { BsDownload } from "react-icons/bs";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 // import { Link } from "react-scroll";
 
@@ -74,7 +75,12 @@ export default function Header({}: Props) {
             target="_blank"
             rel="noreferrer"
           >
-            <button>Download resume as .pdf</button>
+            <button className="flex">
+              <div className="pr-2">
+                <BsDownload size={25} />
+              </div>
+              Download resume as .pdf
+            </button>
           </a>
         </div>
       </motion.div>

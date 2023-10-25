@@ -1,10 +1,11 @@
 import Skill from "./Skill";
-import { skills } from "@/data/resumeData";
+import { iconsMap } from "@/data/iconData";
 import { motion } from "framer-motion";
 
 type Props = {};
 
 export default function Skills({}: Props) {
+  const techStack = Object.entries(iconsMap);
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -15,12 +16,12 @@ export default function Skills({}: Props) {
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
-      <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
+      {/* <h3 className="absolute top-36 uppercase tracking-[3px] text-gray-500 text-sm">
         Hover over a technology to see whether it was gained from my past work
         experience or from personal interest
-      </h3>
-      <div className="grid grid-cols-5 gap-5">
-        {skills.map((skill, i) => (
+      </h3> */}
+      <div className="grid grid-cols-8 place-items-center">
+        {techStack.map((skill, i) => (
           <Skill key={i} skill={skill} />
         ))}
       </div>
