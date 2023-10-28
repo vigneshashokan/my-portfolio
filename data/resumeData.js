@@ -22,7 +22,7 @@ export const experiences = [
       "kubernetes",
     ],
     period: "January 2023 - Present",
-    jobDuties: ["N/A"],
+    jobDuties: [],
   },
   {
     companyName: "PagerDuty",
@@ -90,6 +90,7 @@ export const experiences = [
       "java",
       "python",
       "js",
+      "jquery",
       "groovy",
       "grails",
       "html",
@@ -101,7 +102,6 @@ export const experiences = [
       "Architected and implemented parsing engines as well as redesigned existing ones for audit logs, increasing efficiency by a 50% to 60% reduction in parse time",
       "Implemented an orchestration framework for manual and auto-triggering response actions in the form of insight on activities/violators & remediation steps to manage violations and maintain cases for further investigation",
       "Led the integrations team for developing new & maintaining existing product and orchestration frameworks integrations",
-      "Led client facing discussions for design & implementation of integrations; collaborated with developers from 3rd party vendors to develop integrations for the data ingestion pipeline",
     ],
   },
   {
@@ -114,6 +114,7 @@ export const experiences = [
       "java",
       "python",
       "js",
+      "jquery",
       "groovy",
       "grails",
       "html",
@@ -124,6 +125,7 @@ export const experiences = [
     jobDuties: [
       "Implemented multiple product integrations including but not limited to Tanium, Qualys, Google suite, etc. to pull audit logs, user/asset metadata, and security logs from external APIs as part of Securonix’s Snypr platform",
       "Redesigned and implemented Third Party Intelligence module to pull malware intelligence data, process and store them in data stores as part of Securonix’s threat search interface",
+      "Collaborated with customers and developers from 3rd party vendors for design & implementation of data source integrations",
     ],
   },
 ];
