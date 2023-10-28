@@ -25,34 +25,34 @@ export default function Intro({}: Props) {
         width={1920}
       />
       <div className="z-20">
-        <h2 className="text-lg uppercase text-gray-500 pb-2 tracking-[10px]">
+        <h2 className="text-base md:text-lg uppercase text-gray-500 pb-2 tracking-[2px] md:tracking-[10px]">
           Software Engineer
         </h2>
-        <h1 className="text-5xl lg:text-6xl font-semibold px-10">
+        <h1 className="text-2xl md:text-6xl font-semibold px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
-        <div className="pt-5">
-          <div className="flex items-center space-x-5 justify-center">
+        <div className="pt-2 md:pt-5">
+          <div className="flex items-center space-x-3 md:space-x-5 justify-center">
             <MapPinIcon className="text-[#F7AB0A] h-7 w-7 animate-pulse" />
-            <p className="text-2xl">Vancouver, BC, Canada</p>
+            <p className="text-lg md:text-2xl">Vancouver, BC, Canada</p>
           </div>
         </div>
-        <div className="pt-5">
+        <div className="pt-3 md:pt-5">
           <Link href="#about">
-            <button className="introButton">About</button>
+            <button className="introButton md:mdIntroButton">About</button>
           </Link>
           <Link href="#experience">
-            <button className="introButton">Experience</button>
+            <button className="introButton md:mdIntroButton">Experience</button>
           </Link>
           <Link href="#skills">
-            <button className="introButton">Skills</button>
+            <button className="introButton md:mdIntroButton">Skills</button>
           </Link>
           <Link href="#projects">
-            <button className="introButton">Projects</button>
+            <button className="introButton md:mdIntroButton">Projects</button>
           </Link>
           <Link href="#contactme">
-            <button className="introButton">Contact Me</button>
+            <button className="introButton md:mdIntroButton">Contact Me</button>
           </Link>
         </div>
       </div>
