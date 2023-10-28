@@ -18,7 +18,7 @@ export default function Intro({}: Props) {
     <div className="h-screen flex flex-col space-y-8 item-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative rounded-full h-40 w-40 mx-auto object-cover"
         src="https://lh3.googleusercontent.com/pw/ADCreHfBHs5V-CuAuTj1yBjihS0mnCWwkQDh3chM56phKWtzJOMg2cFS2N3f1aRpeLbdu7OVOsGEdn7vJoXFe1swxQT4Bm7c113OldKzYA_NeTVkcLARlrz9=w2400"
         alt=""
         height={1080}

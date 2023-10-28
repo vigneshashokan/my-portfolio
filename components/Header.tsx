@@ -33,7 +33,7 @@ export default function Header({}: Props) {
           rel="noopener noreferrer"
           className="px-3 text-[#808080] hover:text-white"
         >
-          <SiLinkedin size={30} />
+          <SiLinkedin size={25} />
         </a>
         <a
           href="https://github.com/vigneshashokan"
@@ -41,12 +41,12 @@ export default function Header({}: Props) {
           rel="noopener noreferrer"
           className="px-3 text-[#808080] hover:text-white"
         >
-          <SiGithub size={30} />
+          <SiGithub size={25} />
         </a>
         <Link href="#contact">
           <div className="flex flex-row items-center text-[#808080] hover:text-white cursor-pointer px-3 text-md">
             <div className="cursor-pointer">
-              <LuMail size={35} />
+              <LuMail size={27} />
             </div>
             <p className="uppercase hidden md:inline-flex px-3">Get In Touch</p>
           </div>
