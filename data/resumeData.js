@@ -22,7 +22,11 @@ export const experiences = [
       "kubernetes",
     ],
     period: "January 2023 - Present",
-    jobDuties: [],
+    jobDuties: [
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit aenean tempus lacus ac mauris luctus finibus.",
+      "Pellentesque in interdum erat duis egestas enim sed felis dapibus interdum pellentesque lorem eros, imperdiet et massa eu, suscipit tincidunt nunc.",
+      "Maecenas at ligula molestie magna pharetra blandit vel pulvinar urna donec eleifend vel mi ut aliquam pellentesque quis odio eu leo ornare eleifend non at eros.",
+    ],
   },
   {
     companyName: "PagerDuty",
@@ -55,6 +59,7 @@ export const experiences = [
     period: "April 2022 - June 2022",
     jobDuties: [
       "Designed and implemented the migration of V1 segment data to the newer V2 segment format, resulting in the reduction of snowflake costs by 30% and improving the segmentation pipeline runtime by 10 folds",
+      "Design discussions with the product managers, design & implementation, testing and releasing the APIs with documentation to the end users",
       "Bar raiser and technical interviewer for Twilio’s hiring committees for levels L3 and lower",
     ],
   },
@@ -77,7 +82,7 @@ export const experiences = [
     jobDuties: [
       "Implemented a YACC parser to parse SQL as ASTs & validate for supported syntax, transform to valid snowflake SQLs and convert the SQLs to UI expressions to achieve segmentation of contacts; this includes the reverse translation of expressions from the UI to user readable SQL to return as API response",
       "Architected and implemented sample contacts generation pipeline as part of the contact segmentation service",
-      "Developed APIs to manage email templates, campaigns, resource clean-up services for SOC/GDPR compliance as part of SendGrid’s Marketing Campaigns platform; this included design discussions with the product managers, design & implementation, testing and releasing the APIs with documentation to the end users",
+      "Developed APIs to manage email templates, campaigns, resource clean-up services for SOC/GDPR compliance as part of SendGrid’s Marketing Campaigns platform",
     ],
   },
   {

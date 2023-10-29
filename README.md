@@ -9,4 +9,4 @@ This project is deployed in vercel and can be accessed from [here](https://www.v
 1. Hover-over for tech
    1. Implement tooltip
    2. Should display yrs of work exp
-2. Fix mobile view
+2. Smooth scroll

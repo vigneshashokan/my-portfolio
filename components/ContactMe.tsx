@@ -53,11 +53,11 @@ export default function ContactMe({}: Props) {
 
   return (
     <div className="h-screen relative flex flex-col text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center">
-      <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-20 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-gray-500 text-2xl">
         Contact Me
       </h3>
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+      <div className="flex flex-col w-[300px] md:w-screen mt-24 md:mt-0 space-y-5 md:space-y-10">
+        <h4 className="text-xl md:text-4xl font-semibold text-center">
           Feel free to shoot me an email, I&apos;ll get back to you!
         </h4>
         <ToastContainer />
@@ -65,7 +65,7 @@ export default function ContactMe({}: Props) {
           className="flex flex-col space-y-2 w-fit mx-auto"
           onSubmit={handleSubmit(onSubmit)}
         >
-          <div className="flex space-x-2">
+          <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-2">
             <input
               className="contactInput"
               type="text"
@@ -94,7 +94,7 @@ export default function ContactMe({}: Props) {
           <input
             type="submit"
             value="Send"
-            className="bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 py-5 px-10 rounded-md text-black font-bold text-2xl cursor-pointer"
+            className="bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 py-3 md:py-5 md:px-10 rounded-md text-black font-bold text-2xl cursor-pointer"
           />
         </form>
       </div>
