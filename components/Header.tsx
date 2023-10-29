@@ -68,7 +68,7 @@ export default function Header({}: Props) {
         }}
         className="flex flex-row items-center text-gray-300 cursor-pointer"
       >
-        <div className="invisible md:visible cursor-pointer py-2 px-3 text-black font-bold bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 rounded-full">
+        <div className="hidden sm:block cursor-pointer py-2 px-3 text-black font-bold bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 rounded-full">
           <a
             href="/Vignesh_Ashokan_Resume_2022.pdf"
             download="Vignesh_Ashokan_Resume.pdf"
