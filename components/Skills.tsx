@@ -20,7 +20,7 @@ export default function Skills({}: Props) {
         Hover over a technology to see whether it was gained from my past work
         experience or from personal interest
       </h3> */}
-      <div className="grid grid-cols-8 place-items-center">
+      <div className="grid grid-cols-4 md:grid-cols-8 place-items-center mt-20 md:mt-0">
         {techStack.map((skill, i) => (
           <Skill key={i} skill={skill} />
         ))}

@@ -14,7 +14,8 @@ export default function Skill({ directionLeft, skill }: Props) {
         initial={{ x: directionLeft ? -200 : 200, opacity: 0 }}
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 1 }}
-        className="object-cover h-24 w-24 filter group-hover:grayscale ease-in-out text-7xl group-hover:text-gray-600 flex items-center justify-center"
+        className="object-cover h-16 w-16 md:h-24 md:w-24 filter group-hover:grayscale ease-in-out text-5xl md:text-7xl group-hover:text-gray-600 flex
+        items-center justify-center"
       >
         <div>{skill[1]}</div>
       </motion.div>
