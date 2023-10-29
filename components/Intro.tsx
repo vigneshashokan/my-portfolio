@@ -40,19 +40,19 @@ export default function Intro({}: Props) {
         </div>
         <div className="pt-3 md:pt-5">
           <Link href="#about">
-            <button className="introButton md:mdIntroButton">About</button>
+            <button className="introButton">About</button>
           </Link>
           <Link href="#experience">
-            <button className="introButton md:mdIntroButton">Experience</button>
+            <button className="introButton">Experience</button>
           </Link>
           <Link href="#skills">
-            <button className="introButton md:mdIntroButton">Skills</button>
+            <button className="introButton">Skills</button>
           </Link>
           <Link href="#projects">
-            <button className="introButton md:mdIntroButton">Projects</button>
+            <button className="introButton">Projects</button>
           </Link>
           <Link href="#contactme">
-            <button className="introButton md:mdIntroButton">Contact Me</button>
+            <button className="introButton">Contact Me</button>
           </Link>
         </div>
       </div>
