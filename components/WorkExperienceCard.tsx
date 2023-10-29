@@ -34,7 +34,7 @@ export default function WorkExperienceCard({ experience }: Props) {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.2 }}
         viewport={{ once: true }}
-        className="flex space-x-2 my-2"
+        className="flex space-x-2 md:space-x-5 my-2"
       >
         {techStack.map((logo, i) => {
           return (

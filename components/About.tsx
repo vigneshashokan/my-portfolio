@@ -21,7 +21,7 @@ export default function About({}: Props) {
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1.5 }}
-        className="space-y-5 md:space-y-10 md:px-10 mt-24"
+        className="space-y-5 md:space-y-10 md:px-10 mt-24 md:mt-0"
       >
         <h4 className="text-2xl md:text-4xl font-semibold">
           Here&apos;s a little background
