@@ -26,10 +26,10 @@ export default function Home({ experiences }: Props) {
       <section id="intro" className="snap-start">
         <Intro />
       </section>
-      <section id="about" className="snap-center">
+      <section id="about" className="snap-start">
         <About />
       </section>
-      <section id="experience" className="snap-center">
+      <section id="experience" className="snap-start">
         <WorkExperience experiences={experiences} />
       </section>
       <section id="skills" className="snap-start">
