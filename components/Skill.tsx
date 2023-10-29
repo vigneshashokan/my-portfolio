@@ -11,7 +11,7 @@ export default function Skill({ skill }: Props) {
   return (
     <div className="group relative flex cursor-pointer">
       <div
-        className="object-cover h-12 w-12 xl:h-28 xl:w-28 group-hover:grayscale ease-in-out text-3xl md:text-7xl
+        className="object-cover h-14 w-14 xl:h-28 xl:w-28 group-hover:grayscale ease-in-out text-4xl md:text-7xl
          group-hover:text-gray-600 flex items-center justify-center"
       >
         <div>{skill[1]}</div>

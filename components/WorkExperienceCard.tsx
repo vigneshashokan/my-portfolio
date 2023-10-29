@@ -10,7 +10,7 @@ export default function WorkExperienceCard({ experience }: Props) {
   return (
     <article
       className="flex flex-col items-center space-y-5 md:space-y-7 flex-shrink-0 w-screen md:w-[600px] xl:w-[900px] snap-center 
-    bg-[#292929] p-5 md:p-10 md:opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden"
+    bg-[#292929] p-5 md:p-10 md:opacity-40 hover:opacity-100 cursor-pointer transition-opacity duration-200 overflow-hidden rounded-3xl"
     >
       <motion.div
         initial={{ y: -100, opacity: 0 }}
