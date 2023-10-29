@@ -14,7 +14,7 @@ export default function About({}: Props) {
         whileInView={{ x: 0, opacity: 1 }}
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
-        className="mt-28 md:mb-0 flex-shrink-0 h-40 w-40 rounded-full object-cover md:w-64 md:h-96 md:rounded-lg xl:w-[400px] xl:h-[500px]"
+        className="mt-28 md:mt-0 md:mb-0 flex-shrink-0 h-40 w-40 rounded-full object-cover md:w-64 md:h-96 md:rounded-lg xl:w-[400px] xl:h-[500px]"
         src="https://lh3.googleusercontent.com/pw/ADCreHfqDWXOyrmYu0r4xmOPWeNG7n-UgLLmucundADduMxFg43exFgnAqZ2WfbRZAs_sUI7XesXy7Y6Y6UN1qWTjhm6LchfMgRMA-vJpVCduIgyB7H2VfcQ=w2400"
       />
       <motion.div

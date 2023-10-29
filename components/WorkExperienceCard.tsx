@@ -26,7 +26,7 @@ export default function WorkExperienceCard({ experience }: Props) {
         <div className="pl-5">
           <code className="text-2xl md:text-4xl font-light">{companyName}</code>
           <p className="text-base md:text-2xl font-bold mt-1">{position}</p>
-          <p className="text-gray-300 text-sm md:text-2xl">{period}</p>
+          <p className="text-gray-300 text-sm md:text-base">{period}</p>
         </div>
       </motion.div>
       <motion.div
