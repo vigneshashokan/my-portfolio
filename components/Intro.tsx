@@ -28,7 +28,7 @@ export default function Intro({}: Props) {
         <h2 className="text-base md:text-lg uppercase text-gray-500 pb-2 tracking-[2px] md:tracking-[10px]">
           Software Engineer
         </h2>
-        <h1 className="text-2xl md:text-6xl font-semibold px-10">
+        <h1 className="text-2xl md:text-6xl font-semibold px-5 md:px-10">
           <span className="mr-3">{text}</span>
           <Cursor cursorColor="#F7AB0A" />
         </h1>
@@ -48,10 +48,10 @@ export default function Intro({}: Props) {
           <Link href="#skills">
             <button className="introButton">Skills</button>
           </Link>
-          <Link href="#projects">
+          {/* <Link href="#projects">
             <button className="introButton">Projects</button>
-          </Link>
-          <Link href="#contactme">
+          </Link> */}
+          <Link href="#contact">
             <button className="introButton">Contact Me</button>
           </Link>
         </div>
