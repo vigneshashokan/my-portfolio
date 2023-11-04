@@ -23,6 +23,7 @@ import {
   SiSpring,
   SiTailwindcss,
   SiTerraform,
+  SiTypescript,
 } from "react-icons/si";
 
 export const iconsMap = {
@@ -34,6 +35,7 @@ export const iconsMap = {
   React: <SiReact />,
   Redux: <SiRedux />,
   JavaScript: <SiJavascript />,
+  TypeScript: <SiTypescript />,
   jQuery: <SiJquery />,
   Groovy: <SiApachegroovy />,
   Grails: <DiGrails />,
