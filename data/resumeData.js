@@ -23,9 +23,9 @@ export const experiences = [
     ],
     period: "January 2023 - Present",
     jobDuties: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit aenean tempus lacus ac mauris luctus finibus.",
-      "Pellentesque in interdum erat duis egestas enim sed felis dapibus interdum pellentesque lorem eros, imperdiet et massa eu, suscipit tincidunt nunc.",
-      "Maecenas at ligula molestie magna pharetra blandit vel pulvinar urna donec eleifend vel mi ut aliquam pellentesque quis odio eu leo ornare eleifend non at eros.",
+      "Designed and implemented Test Connectivity pipeline for user credential validation for all the threat intel source integrations",
+      "Migrated legacy services & corresponding API clients from Go to Java/Spring Framework",
+      "Implemented intel-sources integrations with scheduled pull of intel data from OSINT & CSINT sources and ingest them into Splunk’s key-value store",
     ],
   },
   {
