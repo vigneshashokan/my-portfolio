@@ -6,6 +6,9 @@ type Props = {};
 
 export default function Skills({}: Props) {
   const techStack = Object.entries(iconsMap);
+  const techStackMap = new Map(techStack);
+  const techStackArray = [techStackMap.entries()];
+
   return (
     <motion.div
       initial={{ opacity: 0 }}

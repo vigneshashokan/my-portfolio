@@ -36,13 +36,11 @@ export default function WorkExperienceCard({ experience }: Props) {
         viewport={{ once: true }}
         className="flex space-x-2 md:space-x-5 my-2"
       >
-        {techStack.map((logo, i) => {
-          return (
-            <div key={i} className="text-2xl md:text-3xl text-[#F7AB0A]">
-              {Object.entries(iconsMap).filter((icon) => icon[0] == logo)[0][1]}
-            </div>
-          );
-        })}
+        {techStack.map((logo, i) => (
+          <div key={i} className="text-2xl md:text-3xl text-[#F7AB0A]">
+            {Object.entries(iconsMap).filter((icon) => icon[0] == logo)[0][1]}
+          </div>
+        ))}
       </motion.div>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
