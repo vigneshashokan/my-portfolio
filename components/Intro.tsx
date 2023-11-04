@@ -25,7 +25,7 @@ export default function Intro({}: Props) {
         width={1920}
       />
       <div className="z-20">
-        <h2 className="text-base md:text-lg uppercase text-gray-500 pb-2 tracking-[2px] md:tracking-[10px]">
+        <h2 className="text-base md:text-lg lg:text-2xl uppercase text-gray-500 pb-2 tracking-[2px] md:tracking-[10px]">
           Software Engineer
         </h2>
         <h1 className="text-2xl md:text-6xl font-semibold px-5 md:px-10">

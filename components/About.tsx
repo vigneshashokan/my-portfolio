@@ -6,7 +6,7 @@ type Props = {};
 export default function About({}: Props) {
   return (
     <div className="flex flex-col relative h-screen px-5 md:px-10 mx-auto justify-evenly items-center text-center md:text-left md:flex-row max-w-7xl">
-      <h3 className="absolute top-16 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="absolute top-16 md:top-24 uppercase tracking-[10px] md:tracking-[20px] text-gray-500 text-2xl lg:text-4xl">
         About
       </h3>
       <motion.img
@@ -23,7 +23,7 @@ export default function About({}: Props) {
         transition={{ duration: 1.5 }}
         className="space-y-5 md:space-y-10 md:px-10 mt-24 md:mt-0"
       >
-        <h4 className="text-2xl md:text-4xl font-semibold">
+        <h4 className="text-2xl md:text-3xl font-semibold">
           Here&apos;s a little background
         </h4>
         <p className="text-sm md:text-sm text-justify">{about}</p>

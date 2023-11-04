@@ -19,7 +19,7 @@ const WorkExperience = ({ experiences }: Props) => {
       className="flex flex-col md:flex-row relative h-screen max-w-full px-5 md:px-10 mx-auto justify-evenly items-center
       overflow-hidden text-left"
     >
-      <div className="flex absolute top-16 md:top-24 uppercase tracking-[5px] md:tracking-[20px] text-gray-500 text-2xl">
+      <div className="flex absolute top-16 md:top-24 uppercase tracking-[5px] md:tracking-[20px] text-gray-500 text-2xl lg:text-4xl">
         <div className="md:hidden p-1 mr-5">
           <BsFillArrowLeftCircleFill />
         </div>

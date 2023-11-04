@@ -4,7 +4,7 @@
 
 @layer components {
   .introButton {
-    @apply px-3 md:px-6 py-2 rounded-full uppercase text-sm tracking-normal md:tracking-widest text-gray-400
+    @apply px-3 md:px-6 py-2 rounded-full uppercase text-sm lg:text-base tracking-normal md:tracking-widest text-gray-400
     transition-all hover:border-[#F7AB0A] hover:text-black hover:bg-[#F7AB0A] hover:font-bold;
   }
   .contactInput {

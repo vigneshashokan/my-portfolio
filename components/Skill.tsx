@@ -18,11 +18,16 @@ export default function Skill({ skill }: Props) {
       >
         <div>{skill[1]}</div>
       </div>
-      <Tooltip
-        id="my-tooltip"
-        className="bg-[#F7AB0A]"
-        style={{ backgroundColor: "#F7AB0A", color: "#292929" }}
-      />
+      <div className="font-medium">
+        <Tooltip
+          id="my-tooltip"
+          style={{
+            backgroundColor: "#F7AB0A",
+            color: "#292929",
+            borderRadius: "7px",
+          }}
+        />
+      </div>
     </div>
   );
 }
