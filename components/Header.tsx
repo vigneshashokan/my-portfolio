@@ -70,7 +70,7 @@ export default function Header({}: Props) {
       >
         <div className="hidden sm:block cursor-pointer py-2 px-3 text-black font-bold bg-[#F7AB0A] hover:bg-[#F7AB0A]/60 rounded-full">
           <a
-            href="/Vignesh_Ashokan_Resume_2023.pdf"
+            href="/Vignesh_Ashokan_Resume_2024.pdf"
             download="Vignesh_Ashokan_Resume.pdf"
             target="_blank"
             rel="noreferrer"
