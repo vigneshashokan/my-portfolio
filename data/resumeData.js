@@ -16,6 +16,7 @@ export const experiences = [
       "Spring",
       "Python",
       "Golang",
+      "Redis",
       "Terraform",
       "AWS",
       "Docker",
@@ -23,9 +24,9 @@ export const experiences = [
     ],
     period: "January 2023 - Present",
     jobDuties: [
-      "Designed and implemented Test Connectivity pipeline for user credential validation for all the threat intel source integrations",
+      "Designed and implemented a pipeline for user credential validation and API for testing connectivity to all the threat intel source integrations",
       "Migrated legacy services & corresponding API clients from Go to Java/Spring Framework",
-      "Implemented intel-sources integrations with scheduled pull of intel data from OSINT & CSINT sources and ingest them into Splunk’s key-value store",
+      "Implemented intel-sources integrations with scheduled pull of intel data from OSINT & CSINT sources and process & store them into Splunk’s key-value store",
     ],
   },
   {
@@ -37,8 +38,8 @@ export const experiences = [
     techStack: ["Elixir", "React", "Redux", "CSS", "MySQL", "AWS", "Datadog"],
     period: "June 2022 - January 2023",
     jobDuties: [
-      "Implemented Status Updates Notification Templates API which enables the delivery of incident notifications to relevant stakeholders as custom rich text email",
-      "Led & implemented user interface for Custom Fields on Incidents which enables the users to supplement the incident data with their own custom attributes per service",
+      "Led & implemented user interface for adding/modifying/deleting custom fields on incidents API which enables the users to supplement the fixed parameters of the incident data with their own custom attributes per service",
+      "Implemented notification API which enables the delivery of statuses of incidents to relevant stakeholders as custom rich text email",
     ],
   },
   {
@@ -125,6 +126,7 @@ export const experiences = [
       "HTML",
       "CSS",
       "MySQL",
+      "Redis",
     ],
     period: "July 2015 - March 2018",
     jobDuties: [
